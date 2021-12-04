@@ -20,10 +20,10 @@ Below are the units used in modeling:
 
 |Feature|Units of Measurement|
 |---|---|
-|Emissions|Expressed in millions of tons of CO^{2}|
+|Emissions|Expressed in millions of tons of CO2|
 |Energy Intensity|Consumption per capita; Expressed in millions of British thermal units per person|
 
-Emissions data include four sources of emissions: CO^{2}, coal and coke, consumed natural gas, petroleum and other liquids.
+Emissions data include four sources of emissions: CO2, coal and coke, consumed natural gas, petroleum and other liquids.
 British thermal unit is defined as the amount of heat required to raise the temperature of one pound of water by one degree Farenheit.
 
 After cleaning the data, the resulting data was comprised of 173 countries and territories, spanning 27 years, totaling 4,698 observations.
@@ -40,11 +40,12 @@ After determining that the structure was in panel form, we explored regression m
 
 |   |World *(Fixed Effects)*|Oil Exporters *(Fixed Effects)*|Least Developed Countries *(Random Effects)*|
 |---|---|---|---|
-|CO^{2}|0.0228\*\*\*|0.0152\*\*\*|-0.0157|
+|CO2|0.0228\*\*\*|0.0152\*\*\*|-0.0157|
 |Coal/Coke|-0.0246\*\*\*|-0.0158\*\*\*|0.0556|
 |Petrol & Other Liquids|-0.0127\*\*\*|-0.0112\*\*\*|1.0592\*\*\*|
 |Energy Consumption per Capita|0.0120\*\*\*|0.0050|0.1368\*\*\*|
 |R-Squared (Overall)|8%|5%|13%|
+
 \*\*\* denotes significance at 1% level of significance
 
 ## Conclusion
@@ -52,7 +53,7 @@ After determining that the structure was in panel form, we explored regression m
 - Yes, energy consumption does affect life expectancy. However there are nuances, with regards to pollutant, and country's level of development.
 - We explored the relationship between energy consumption and life expectancy for 172 countries from 1992-2018, using fixed effects and random effects models. 
 - Emissions from petroleum, coal and coke were found to have a significant, negative effect on life expectancy, while C02 emissions showed a significant positive relationship with life expectancy. However, this did not hold in the specific case of Least Developed Countries (LDCs).
-- CO^{2} emissions showed a significant, negative relationship with life expectancy in LDCs, whereas emissions from coal,coke and petroleum showed a significant, positive relationship. 
+- CO2 emissions showed a significant, negative relationship with life expectancy in LDCs, whereas emissions from coal,coke and petroleum showed a significant, positive relationship. 
 - Energy consumption per capita showed a significant positive effect on life expectancy, worldwide, as well as in the two subsets analyzed.
 
 ## Recommendation
